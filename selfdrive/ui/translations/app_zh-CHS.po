@@ -749,7 +749,32 @@ msgstr "默认"
 msgid "down"
 msgstr "下"
 
-#: openpilot/selfdrive/ui/layouts/settings/software.py
+#: openpilot/selfdrive/ui/layouts/settings/device.py
+msgid "up"
+msgstr "上"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py
+msgid "left"
+msgstr "左"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py
+msgid "right"
+msgstr "右"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py
+msgid "sunnypilot requires the device to be mounted within 4° left or right and within 5° up or 9° down."
+msgstr "sunnypilot 要求设备安装朝向：左右偏差不超过 4°，上下偏差不超过 5° 上或 9° 下。"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py
+msgid "Review the rules, features, and limitations of sunnypilot"
+msgstr "查看 sunnypilot 的规则、功能和限制说明"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py
+msgid "sunnypilot is continuously calibrating, resetting is rarely required. " +
+               "Resetting calibration will restart sunnypilot if the car is powered on."
+msgstr "sunnypilot 会持续进行校准，很少需要手动重置。如果车辆处于通电状态，重置校准将重启 sunnypilot。"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "downloading..."
 msgstr "下载中..."
 

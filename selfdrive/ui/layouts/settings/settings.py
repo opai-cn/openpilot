@@ -56,12 +56,12 @@ class SettingsLayout(Widget):
     wifi_manager.set_active(False)
 
     self._panels = {
-      PanelType.DEVICE: PanelInfo(tr_noop("Device"), DeviceLayout()),
-      PanelType.NETWORK: PanelInfo(tr_noop("Network"), NetworkUI(wifi_manager)),
-      PanelType.TOGGLES: PanelInfo(tr_noop("Toggles"), TogglesLayout()),
-      PanelType.SOFTWARE: PanelInfo(tr_noop("Software"), SoftwareLayout()),
-      PanelType.FIREHOSE: PanelInfo(tr_noop("Firehose"), FirehoseLayout()),
-      PanelType.DEVELOPER: PanelInfo(tr_noop("Developer"), DeveloperLayout()),
+      PanelType.DEVICE: PanelInfo("设备", DeviceLayout()),
+      PanelType.NETWORK: PanelInfo("网络", NetworkUI(wifi_manager)),
+      PanelType.TOGGLES: PanelInfo("开关", TogglesLayout()),
+      PanelType.SOFTWARE: PanelInfo("软件", SoftwareLayout()),
+      PanelType.FIREHOSE: PanelInfo("数据洪流", FirehoseLayout()),
+      PanelType.DEVELOPER: PanelInfo("开发者", DeveloperLayout()),
     }
 
     self._font_medium = gui_app.font(FontWeight.MEDIUM)
